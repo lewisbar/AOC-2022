@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303800A72938DF06005373E8 /* InputDay1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 303800A62938DF06005373E8 /* InputDay1.txt */; };
+		303800AE2938E252005373E8 /* Day1 in Frameworks */ = {isa = PBXBuildFile; productRef = 303800AD2938E252005373E8 /* Day1 */; };
 		30ED93BC2938A9D4008A47D6 /* AOC2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */; };
 		30ED93BE2938A9D4008A47D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93BD2938A9D4008A47D6 /* ContentView.swift */; };
 		30ED93C02938A9D5008A47D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ED93BF2938A9D5008A47D6 /* Assets.xcassets */; };
 		30ED93C32938A9D5008A47D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ED93C22938A9D5008A47D6 /* Preview Assets.xcassets */; };
 		30ED93CD2938A9D5008A47D6 /* AOC2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93CC2938A9D5008A47D6 /* AOC2022Tests.swift */; };
-		30ED93D72938A9D5008A47D6 /* AOC2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93D62938A9D5008A47D6 /* AOC2022UITests.swift */; };
-		30ED93D92938A9D5008A47D6 /* AOC2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93D82938A9D5008A47D6 /* AOC2022UITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,16 +24,11 @@
 			remoteGlobalIDString = 30ED93B72938A9D4008A47D6;
 			remoteInfo = AOC2022;
 		};
-		30ED93D32938A9D5008A47D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30ED93B02938A9D4008A47D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 30ED93B72938A9D4008A47D6;
-			remoteInfo = AOC2022;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		303800A62938DF06005373E8 /* InputDay1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InputDay1.txt; sourceTree = "<group>"; };
+		303800AC2938E1FD005373E8 /* Day1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day1; path = AOC2022/Day1; sourceTree = "<group>"; };
 		30ED93B82938A9D4008A47D6 /* AOC2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOC2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2022App.swift; sourceTree = "<group>"; };
 		30ED93BD2938A9D4008A47D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,9 +36,6 @@
 		30ED93C22938A9D5008A47D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30ED93C82938A9D5008A47D6 /* AOC2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOC2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30ED93CC2938A9D5008A47D6 /* AOC2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2022Tests.swift; sourceTree = "<group>"; };
-		30ED93D22938A9D5008A47D6 /* AOC2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOC2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30ED93D62938A9D5008A47D6 /* AOC2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2022UITests.swift; sourceTree = "<group>"; };
-		30ED93D82938A9D5008A47D6 /* AOC2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303800AE2938E252005373E8 /* Day1 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,23 +54,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30ED93CF2938A9D5008A47D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		303800A82938DF1E005373E8 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				303800A62938DF06005373E8 /* InputDay1.txt */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
 		30ED93AF2938A9D4008A47D6 = {
 			isa = PBXGroup;
 			children = (
+				303800AC2938E1FD005373E8 /* Day1 */,
 				30ED93BA2938A9D4008A47D6 /* AOC2022 */,
 				30ED93CB2938A9D5008A47D6 /* AOC2022Tests */,
-				30ED93D52938A9D5008A47D6 /* AOC2022UITests */,
 				30ED93B92938A9D4008A47D6 /* Products */,
+				30ED93E62938ADF1008A47D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +81,6 @@
 			children = (
 				30ED93B82938A9D4008A47D6 /* AOC2022.app */,
 				30ED93C82938A9D5008A47D6 /* AOC2022Tests.xctest */,
-				30ED93D22938A9D5008A47D6 /* AOC2022UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +88,7 @@
 		30ED93BA2938A9D4008A47D6 /* AOC2022 */ = {
 			isa = PBXGroup;
 			children = (
+				303800A82938DF1E005373E8 /* Input */,
 				30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */,
 				30ED93BD2938A9D4008A47D6 /* ContentView.swift */,
 				30ED93BF2938A9D5008A47D6 /* Assets.xcassets */,
@@ -118,13 +113,11 @@
 			path = AOC2022Tests;
 			sourceTree = "<group>";
 		};
-		30ED93D52938A9D5008A47D6 /* AOC2022UITests */ = {
+		30ED93E62938ADF1008A47D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30ED93D62938A9D5008A47D6 /* AOC2022UITests.swift */,
-				30ED93D82938A9D5008A47D6 /* AOC2022UITestsLaunchTests.swift */,
 			);
-			path = AOC2022UITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +136,9 @@
 			dependencies = (
 			);
 			name = AOC2022;
+			packageProductDependencies = (
+				303800AD2938E252005373E8 /* Day1 */,
+			);
 			productName = AOC2022;
 			productReference = 30ED93B82938A9D4008A47D6 /* AOC2022.app */;
 			productType = "com.apple.product-type.application";
@@ -165,24 +161,6 @@
 			productReference = 30ED93C82938A9D5008A47D6 /* AOC2022Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		30ED93D12938A9D5008A47D6 /* AOC2022UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 30ED93E22938A9D5008A47D6 /* Build configuration list for PBXNativeTarget "AOC2022UITests" */;
-			buildPhases = (
-				30ED93CE2938A9D5008A47D6 /* Sources */,
-				30ED93CF2938A9D5008A47D6 /* Frameworks */,
-				30ED93D02938A9D5008A47D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				30ED93D42938A9D5008A47D6 /* PBXTargetDependency */,
-			);
-			name = AOC2022UITests;
-			productName = AOC2022UITests;
-			productReference = 30ED93D22938A9D5008A47D6 /* AOC2022UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +175,6 @@
 						CreatedOnToolsVersion = 14.1;
 					};
 					30ED93C72938A9D5008A47D6 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 30ED93B72938A9D4008A47D6;
-					};
-					30ED93D12938A9D5008A47D6 = {
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = 30ED93B72938A9D4008A47D6;
 					};
@@ -221,7 +195,6 @@
 			targets = (
 				30ED93B72938A9D4008A47D6 /* AOC2022 */,
 				30ED93C72938A9D5008A47D6 /* AOC2022Tests */,
-				30ED93D12938A9D5008A47D6 /* AOC2022UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,17 +206,11 @@
 			files = (
 				30ED93C32938A9D5008A47D6 /* Preview Assets.xcassets in Resources */,
 				30ED93C02938A9D5008A47D6 /* Assets.xcassets in Resources */,
+				303800A72938DF06005373E8 /* InputDay1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		30ED93C62938A9D5008A47D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30ED93D02938A9D5008A47D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,15 +237,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30ED93CE2938A9D5008A47D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30ED93D92938A9D5008A47D6 /* AOC2022UITestsLaunchTests.swift in Sources */,
-				30ED93D72938A9D5008A47D6 /* AOC2022UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +244,6 @@
 			isa = PBXTargetDependency;
 			target = 30ED93B72938A9D4008A47D6 /* AOC2022 */;
 			targetProxy = 30ED93C92938A9D5008A47D6 /* PBXContainerItemProxy */;
-		};
-		30ED93D42938A9D5008A47D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 30ED93B72938A9D4008A47D6 /* AOC2022 */;
-			targetProxy = 30ED93D32938A9D5008A47D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -507,42 +460,6 @@
 			};
 			name = Release;
 		};
-		30ED93E32938A9D5008A47D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SR8TKD8JBH;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.lewisbar.AOC2022UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AOC2022;
-			};
-			name = Debug;
-		};
-		30ED93E42938A9D5008A47D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SR8TKD8JBH;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.lewisbar.AOC2022UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AOC2022;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,16 +490,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30ED93E22938A9D5008A47D6 /* Build configuration list for PBXNativeTarget "AOC2022UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30ED93E32938A9D5008A47D6 /* Debug */,
-				30ED93E42938A9D5008A47D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		303800AD2938E252005373E8 /* Day1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Day1;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 30ED93B02938A9D4008A47D6 /* Project object */;
 }
