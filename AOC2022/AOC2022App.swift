@@ -11,7 +11,7 @@ import SwiftUI
 struct AOC2022App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(model: ContentViewModel())
         }
     }
 }

@@ -30,6 +30,6 @@ public struct Day1View: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        Day1View(day1: Day1("1111"))
+        Day1View(day1: Day1("1111\n\n2222\n\n3333"))
     }
 }
