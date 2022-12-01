@@ -12,6 +12,7 @@ struct Parser {
         var elves = [Elf]()
 
         let rawElves = input.components(separatedBy: "\n\n")
+
         for rawElf in rawElves {
             let items = rawElf
                 .components(separatedBy: .newlines)
