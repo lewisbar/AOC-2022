@@ -10,6 +10,7 @@
 		301F1B8C2938EC400044595B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F1B8B2938EC400044595B /* ContentViewModel.swift */; };
 		303800A72938DF06005373E8 /* InputDay1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 303800A62938DF06005373E8 /* InputDay1.txt */; };
 		303800AE2938E252005373E8 /* Day1 in Frameworks */ = {isa = PBXBuildFile; productRef = 303800AD2938E252005373E8 /* Day1 */; };
+		3056A04D29393B4D00BAC4F0 /* SolutionView in Frameworks */ = {isa = PBXBuildFile; productRef = 3056A04C29393B4D00BAC4F0 /* SolutionView */; };
 		30ED93BC2938A9D4008A47D6 /* AOC2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */; };
 		30ED93BE2938A9D4008A47D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93BD2938A9D4008A47D6 /* ContentView.swift */; };
 		30ED93C02938A9D5008A47D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ED93BF2938A9D5008A47D6 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		301F1B8B2938EC400044595B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		303800A62938DF06005373E8 /* InputDay1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InputDay1.txt; sourceTree = "<group>"; };
 		303800AC2938E1FD005373E8 /* Day1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day1; path = AOC2022/Day1; sourceTree = "<group>"; };
+		3056A04B29393A8800BAC4F0 /* SolutionView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SolutionView; path = AOC2022/SolutionView; sourceTree = "<group>"; };
 		30ED93B82938A9D4008A47D6 /* AOC2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOC2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2022App.swift; sourceTree = "<group>"; };
 		30ED93BD2938A9D4008A47D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3056A04D29393B4D00BAC4F0 /* SolutionView in Frameworks */,
 				303800AE2938E252005373E8 /* Day1 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +53,7 @@
 		30ED93AF2938A9D4008A47D6 = {
 			isa = PBXGroup;
 			children = (
+				3056A04B29393A8800BAC4F0 /* SolutionView */,
 				303800AC2938E1FD005373E8 /* Day1 */,
 				30ED93BA2938A9D4008A47D6 /* AOC2022 */,
 				30ED93B92938A9D4008A47D6 /* Products */,
@@ -111,6 +115,7 @@
 			name = AOC2022;
 			packageProductDependencies = (
 				303800AD2938E252005373E8 /* Day1 */,
+				3056A04C29393B4D00BAC4F0 /* SolutionView */,
 			);
 			productName = AOC2022;
 			productReference = 30ED93B82938A9D4008A47D6 /* AOC2022.app */;
@@ -375,6 +380,10 @@
 		303800AD2938E252005373E8 /* Day1 */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Day1;
+		};
+		3056A04C29393B4D00BAC4F0 /* SolutionView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SolutionView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

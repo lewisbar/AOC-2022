@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import SolutionView
 import Day1
 
 struct ContentView: View {
     let model: ContentViewModel
 
     var body: some View {
-        Day1View(day1: model.day1)
+        SolutionView(title: "Day 1", solution1: model.day1.solution1, solution2: model.day1.solution2)
     }
 }
 
