@@ -9,11 +9,11 @@ public class Day1 {
     }
 
     var elfWithMostCalories: Elf {
-        elves.sorted(by: { $0.totalCalories > $1.totalCalories })[0]
+        elves.sorted().reversed()[0]
     }
 
     var topThreeElves: [Elf] {
-        Array(elves.sorted(by: { $0.totalCalories > $1.totalCalories })[..<3])
+        elves.sorted().suffix(3).reversed()
     }
 
     public var solution1: String {

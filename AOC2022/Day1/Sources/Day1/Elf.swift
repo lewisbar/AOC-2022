@@ -7,9 +7,14 @@
 
 import Foundation
 
-struct Elf: Equatable {
+struct Elf: Equatable, Comparable {
     let foodItems: [Int]
+
     var totalCalories: Int {
         foodItems.reduce(0, +)
+    }
+
+    static func < (lhs: Elf, rhs: Elf) -> Bool {
+        lhs.totalCalories < rhs.totalCalories
     }
 }
