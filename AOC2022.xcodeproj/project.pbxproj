@@ -13,18 +13,7 @@
 		30ED93BE2938A9D4008A47D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93BD2938A9D4008A47D6 /* ContentView.swift */; };
 		30ED93C02938A9D5008A47D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ED93BF2938A9D5008A47D6 /* Assets.xcassets */; };
 		30ED93C32938A9D5008A47D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ED93C22938A9D5008A47D6 /* Preview Assets.xcassets */; };
-		30ED93CD2938A9D5008A47D6 /* AOC2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93CC2938A9D5008A47D6 /* AOC2022Tests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		30ED93C92938A9D5008A47D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30ED93B02938A9D4008A47D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 30ED93B72938A9D4008A47D6;
-			remoteInfo = AOC2022;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		303800A62938DF06005373E8 /* InputDay1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InputDay1.txt; sourceTree = "<group>"; };
@@ -34,8 +23,6 @@
 		30ED93BD2938A9D4008A47D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30ED93BF2938A9D5008A47D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30ED93C22938A9D5008A47D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		30ED93C82938A9D5008A47D6 /* AOC2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOC2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30ED93CC2938A9D5008A47D6 /* AOC2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2022Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,13 +31,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				303800AE2938E252005373E8 /* Day1 in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30ED93C52938A9D5008A47D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +50,6 @@
 			children = (
 				303800AC2938E1FD005373E8 /* Day1 */,
 				30ED93BA2938A9D4008A47D6 /* AOC2022 */,
-				30ED93CB2938A9D5008A47D6 /* AOC2022Tests */,
 				30ED93B92938A9D4008A47D6 /* Products */,
 				30ED93E62938ADF1008A47D6 /* Frameworks */,
 			);
@@ -80,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				30ED93B82938A9D4008A47D6 /* AOC2022.app */,
-				30ED93C82938A9D5008A47D6 /* AOC2022Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,14 +81,6 @@
 				30ED93C22938A9D5008A47D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		30ED93CB2938A9D5008A47D6 /* AOC2022Tests */ = {
-			isa = PBXGroup;
-			children = (
-				30ED93CC2938A9D5008A47D6 /* AOC2022Tests.swift */,
-			);
-			path = AOC2022Tests;
 			sourceTree = "<group>";
 		};
 		30ED93E62938ADF1008A47D6 /* Frameworks */ = {
@@ -143,24 +113,6 @@
 			productReference = 30ED93B82938A9D4008A47D6 /* AOC2022.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30ED93C72938A9D5008A47D6 /* AOC2022Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 30ED93DF2938A9D5008A47D6 /* Build configuration list for PBXNativeTarget "AOC2022Tests" */;
-			buildPhases = (
-				30ED93C42938A9D5008A47D6 /* Sources */,
-				30ED93C52938A9D5008A47D6 /* Frameworks */,
-				30ED93C62938A9D5008A47D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				30ED93CA2938A9D5008A47D6 /* PBXTargetDependency */,
-			);
-			name = AOC2022Tests;
-			productName = AOC2022Tests;
-			productReference = 30ED93C82938A9D5008A47D6 /* AOC2022Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +125,6 @@
 				TargetAttributes = {
 					30ED93B72938A9D4008A47D6 = {
 						CreatedOnToolsVersion = 14.1;
-					};
-					30ED93C72938A9D5008A47D6 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 30ED93B72938A9D4008A47D6;
 					};
 				};
 			};
@@ -194,7 +142,6 @@
 			projectRoot = "";
 			targets = (
 				30ED93B72938A9D4008A47D6 /* AOC2022 */,
-				30ED93C72938A9D5008A47D6 /* AOC2022Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,13 +157,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30ED93C62938A9D5008A47D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -229,23 +169,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30ED93C42938A9D5008A47D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30ED93CD2938A9D5008A47D6 /* AOC2022Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		30ED93CA2938A9D5008A47D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 30ED93B72938A9D4008A47D6 /* AOC2022 */;
-			targetProxy = 30ED93C92938A9D5008A47D6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		30ED93DA2938A9D5008A47D6 /* Debug */ = {
@@ -420,46 +344,6 @@
 			};
 			name = Release;
 		};
-		30ED93E02938A9D5008A47D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SR8TKD8JBH;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.lewisbar.AOC2022Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOC2022.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AOC2022";
-			};
-			name = Debug;
-		};
-		30ED93E12938A9D5008A47D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SR8TKD8JBH;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.lewisbar.AOC2022Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOC2022.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AOC2022";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -477,15 +361,6 @@
 			buildConfigurations = (
 				30ED93DD2938A9D5008A47D6 /* Debug */,
 				30ED93DE2938A9D5008A47D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		30ED93DF2938A9D5008A47D6 /* Build configuration list for PBXNativeTarget "AOC2022Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30ED93E02938A9D5008A47D6 /* Debug */,
-				30ED93E12938A9D5008A47D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
