@@ -13,7 +13,17 @@ struct ContentView: View {
     let model: ContentViewModel
 
     var body: some View {
-        SolutionView(title: "Day 1", solution1: model.day1.solution1, solution2: model.day1.solution2)
+        TabView {
+            ForEach(model.solutions) { solution in
+                SolutionView(
+                    title: solution.id,
+                    solution1: solution.part1,
+                    solution2: solution.part2
+                )
+            }
+        }
+        .tabViewStyle(.page(indexDisplayMode: .always))
+        .indexViewStyle(.page(backgroundDisplayMode: .always))
     }
 }
 
