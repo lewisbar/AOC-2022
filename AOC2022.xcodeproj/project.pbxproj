@@ -13,6 +13,7 @@
 		3056A049293937BE00BAC4F0 /* InputDay2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3056A048293937BE00BAC4F0 /* InputDay2.txt */; };
 		3056A04D29393B4D00BAC4F0 /* SolutionView in Frameworks */ = {isa = PBXBuildFile; productRef = 3056A04C29393B4D00BAC4F0 /* SolutionView */; };
 		3056A04F29393B5300BAC4F0 /* Day2 in Frameworks */ = {isa = PBXBuildFile; productRef = 3056A04E29393B5300BAC4F0 /* Day2 */; };
+		3056A051293948FB00BAC4F0 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3056A050293948FB00BAC4F0 /* FileReader.swift */; };
 		30ED93BC2938A9D4008A47D6 /* AOC2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */; };
 		30ED93BE2938A9D4008A47D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93BD2938A9D4008A47D6 /* ContentView.swift */; };
 		30ED93C02938A9D5008A47D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ED93BF2938A9D5008A47D6 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		3056A048293937BE00BAC4F0 /* InputDay2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay2.txt; sourceTree = "<group>"; };
 		3056A04A2939383600BAC4F0 /* Day2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day2; path = AOC2022/Day2; sourceTree = "<group>"; };
 		3056A04B29393A8800BAC4F0 /* SolutionView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SolutionView; path = AOC2022/SolutionView; sourceTree = "<group>"; };
+		3056A050293948FB00BAC4F0 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		30ED93B82938A9D4008A47D6 /* AOC2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOC2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2022App.swift; sourceTree = "<group>"; };
 		30ED93BD2938A9D4008A47D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */,
 				30ED93BD2938A9D4008A47D6 /* ContentView.swift */,
 				301F1B8B2938EC400044595B /* ContentViewModel.swift */,
+				3056A050293948FB00BAC4F0 /* FileReader.swift */,
 				30ED93BF2938A9D5008A47D6 /* Assets.xcassets */,
 				30ED93C12938A9D5008A47D6 /* Preview Content */,
 			);
@@ -183,6 +186,7 @@
 			files = (
 				30ED93BE2938A9D4008A47D6 /* ContentView.swift in Sources */,
 				30ED93BC2938A9D4008A47D6 /* AOC2022App.swift in Sources */,
+				3056A051293948FB00BAC4F0 /* FileReader.swift in Sources */,
 				301F1B8C2938EC400044595B /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

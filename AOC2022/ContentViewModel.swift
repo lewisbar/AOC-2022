@@ -20,24 +20,24 @@ struct Solution: Identifiable {
     }
 }
 
-class ContentViewModel {
+struct ContentViewModel {
     var solutions: [Solution] {[
-        day1
+        day1()
     ]}
 
-    private var day1: Solution = {
+    private var reader: FileReader
+
+    init(reader: FileReader = FileReader.shared) {
+        self.reader = reader
+    }
+
+    private func day1() -> Solution {
         let id = "Day 1"
+        let filename = "InputDay1"
 
-        guard let url = Bundle.main.url(forResource: "InputDay1", withExtension: "txt") else {
-            print("File not found.")
-            return Solution(id)
-        }
-        guard let input = try? String(contentsOf: url) else {
-            print("Contents of URL could not be converted to String.")
-            return Solution(id)
-        }
-
+        let input = reader.read(filename)
         let day1 = Day1(input)
+
         return Solution(id, part1: day1.solution1, part2: day1.solution2)
-    }()
+    }
 }
