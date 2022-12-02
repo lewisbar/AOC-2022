@@ -1,6 +1,32 @@
-public struct Day2 {
-    public private(set) var text = "Hello, World!"
+import Foundation
 
-    public init() {
+public class Day2 {
+    var rounds1 = [Round]()
+    var rounds2 = [Round]()
+    let parser = Parser()
+
+    public var solution1: String {
+        rounds1
+            .map { $0.score }
+            .reduce(0, +)
+            .asString
+    }
+
+    public var solution2: String {
+        rounds2
+            .map { $0.score }
+            .reduce(0, +)
+            .asString
+    }
+
+    public init(_ input: String) {
+        self.rounds1 = parser.parse1(input)
+        self.rounds2 = parser.parse2(input)
+    }
+}
+
+private extension Int {
+    var asString: String {
+        String(self)
     }
 }
