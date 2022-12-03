@@ -4,7 +4,7 @@ public class Day3 {
     var rucksacks = [Rucksack]()
     let parser = Parser()
 
-    public init(_ input: String) {
+    required public init(_ input: String) {
         self.rucksacks = parser.parse(input)
     }
     

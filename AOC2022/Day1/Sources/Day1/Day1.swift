@@ -4,7 +4,7 @@ public class Day1 {
     var elves = [Elf]()
     let parser = Parser()
 
-    public init(_ input: String) {
+    required public init(_ input: String) {
         self.elves = parser.parse(input)
     }
 

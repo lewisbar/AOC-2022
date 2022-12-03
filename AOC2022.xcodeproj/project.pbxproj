@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30004F6A293BD63B00EDA349 /* InputDay4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30004F69293BD63B00EDA349 /* InputDay4.txt */; };
+		30004F6C293BD6D100EDA349 /* Day4 in Frameworks */ = {isa = PBXBuildFile; productRef = 30004F6B293BD6D100EDA349 /* Day4 */; };
+		30004F6E293BDE7F00EDA349 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30004F6D293BDE7F00EDA349 /* Day.swift */; };
+		30004F70293BDECC00EDA349 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30004F6F293BDECC00EDA349 /* Solution.swift */; };
 		301B8BBD293A287A000DB83B /* InputDay3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 301B8BBC293A287A000DB83B /* InputDay3.txt */; };
 		301F1B8C2938EC400044595B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F1B8B2938EC400044595B /* ContentViewModel.swift */; };
 		3034780F293A441E002D874F /* Day3 in Frameworks */ = {isa = PBXBuildFile; productRef = 3034780E293A441E002D874F /* Day3 */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30004F68293BD45F00EDA349 /* Day4 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day4; path = AOC2022/Day4; sourceTree = "<group>"; };
+		30004F69293BD63B00EDA349 /* InputDay4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay4.txt; sourceTree = "<group>"; };
+		30004F6D293BDE7F00EDA349 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		30004F6F293BDECC00EDA349 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		301B8BBC293A287A000DB83B /* InputDay3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay3.txt; sourceTree = "<group>"; };
 		301B8BBE293A28AA000DB83B /* Day3 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day3; path = AOC2022/Day3; sourceTree = "<group>"; };
 		301F1B8B2938EC400044595B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
@@ -46,6 +54,7 @@
 			files = (
 				3056A04F29393B5300BAC4F0 /* Day2 in Frameworks */,
 				3034780F293A441E002D874F /* Day3 in Frameworks */,
+				30004F6C293BD6D100EDA349 /* Day4 in Frameworks */,
 				3056A04D29393B4D00BAC4F0 /* SolutionView in Frameworks */,
 				303800AE2938E252005373E8 /* Day1 in Frameworks */,
 			);
@@ -60,6 +69,7 @@
 				303800A62938DF06005373E8 /* InputDay1.txt */,
 				3056A048293937BE00BAC4F0 /* InputDay2.txt */,
 				301B8BBC293A287A000DB83B /* InputDay3.txt */,
+				30004F69293BD63B00EDA349 /* InputDay4.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -67,6 +77,7 @@
 		30ED93AF2938A9D4008A47D6 = {
 			isa = PBXGroup;
 			children = (
+				30004F68293BD45F00EDA349 /* Day4 */,
 				301B8BBE293A28AA000DB83B /* Day3 */,
 				3056A04A2939383600BAC4F0 /* Day2 */,
 				303800AC2938E1FD005373E8 /* Day1 */,
@@ -92,6 +103,8 @@
 				30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */,
 				30ED93BD2938A9D4008A47D6 /* ContentView.swift */,
 				301F1B8B2938EC400044595B /* ContentViewModel.swift */,
+				30004F6D293BDE7F00EDA349 /* Day.swift */,
+				30004F6F293BDECC00EDA349 /* Solution.swift */,
 				3056A050293948FB00BAC4F0 /* FileReader.swift */,
 				30ED93BF2938A9D5008A47D6 /* Assets.xcassets */,
 				30ED93C12938A9D5008A47D6 /* Preview Content */,
@@ -135,6 +148,7 @@
 				3056A04C29393B4D00BAC4F0 /* SolutionView */,
 				3056A04E29393B5300BAC4F0 /* Day2 */,
 				3034780E293A441E002D874F /* Day3 */,
+				30004F6B293BD6D100EDA349 /* Day4 */,
 			);
 			productName = AOC2022;
 			productReference = 30ED93B82938A9D4008A47D6 /* AOC2022.app */;
@@ -181,6 +195,7 @@
 				30ED93C32938A9D5008A47D6 /* Preview Assets.xcassets in Resources */,
 				30ED93C02938A9D5008A47D6 /* Assets.xcassets in Resources */,
 				303800A72938DF06005373E8 /* InputDay1.txt in Resources */,
+				30004F6A293BD63B00EDA349 /* InputDay4.txt in Resources */,
 				3056A049293937BE00BAC4F0 /* InputDay2.txt in Resources */,
 				301B8BBD293A287A000DB83B /* InputDay3.txt in Resources */,
 			);
@@ -195,7 +210,9 @@
 			files = (
 				30ED93BE2938A9D4008A47D6 /* ContentView.swift in Sources */,
 				30ED93BC2938A9D4008A47D6 /* AOC2022App.swift in Sources */,
+				30004F70293BDECC00EDA349 /* Solution.swift in Sources */,
 				3056A051293948FB00BAC4F0 /* FileReader.swift in Sources */,
+				30004F6E293BDE7F00EDA349 /* Day.swift in Sources */,
 				301F1B8C2938EC400044595B /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +416,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		30004F6B293BD6D100EDA349 /* Day4 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Day4;
+		};
 		3034780E293A441E002D874F /* Day3 */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Day3;
