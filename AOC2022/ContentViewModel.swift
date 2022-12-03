@@ -8,6 +8,7 @@
 import Foundation
 import Day1
 import Day2
+import Day3
 
 struct Solution: Identifiable {
     let id: String
@@ -24,7 +25,8 @@ struct Solution: Identifiable {
 struct ContentViewModel {
     var solutions: [Solution] {[
         day1(),
-        day2()
+        day2(),
+        day3()
     ]}
 
     private var reader: FileReader
@@ -51,5 +53,15 @@ struct ContentViewModel {
         let day2 = Day2(input)
 
         return Solution(id, part1: day2.solution1, part2: day2.solution2)
+    }
+
+    private func day3() -> Solution {
+        let id = "Day 3"
+        let filename = "InputDay3"
+
+        let input = reader.read(filename)
+        let day3 = Day3(input)
+
+        return Solution(id, part1: day3.solution1, part2: day3.solution2)
     }
 }
