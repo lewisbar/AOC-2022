@@ -6,28 +6,19 @@
 //
 
 import Foundation
-import Day1
-import Day2
-import Day3
-import Day4
 
 struct ContentViewModel {
     private let reader: FileReader
 
     var solutions: [Solution] {
-        allDays(types: [
-            Day1.self,
-            Day2.self,
-            Day3.self,
-            Day4.self
-        ])
+        allDays(types: DayConstants.dayTypes)
     }
 
     init(reader: FileReader = FileReader.shared) {
         self.reader = reader
     }
 
-    private func allDays(types: [Day.Type]) -> [Solution] {
+    private func allDays(types: [DayType.Type]) -> [Solution] {
         var solutions = [Solution]()
 
         for i in 1...types.count {
