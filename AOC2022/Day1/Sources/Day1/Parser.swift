@@ -11,7 +11,9 @@ struct Parser {
     func parse(_ input: String) -> [Elf] {
         var elves = [Elf]()
 
-        let rawElves = input.components(separatedBy: "\n\n")
+        let rawElves = input
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .components(separatedBy: "\n\n")
 
         for rawElf in rawElves {
             let items = rawElf

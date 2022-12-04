@@ -11,7 +11,9 @@ struct Parser {
     func parse1(_ input: String) -> [Round] {
         var rounds = [Round]()
 
-        let rawRounds = input.components(separatedBy: .newlines)
+        let rawRounds = input
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .components(separatedBy: .newlines)
 
         for rawRound in rawRounds {
             let moves = rawRound
@@ -33,7 +35,9 @@ struct Parser {
     func parse2(_ input: String) -> [Round] {
         var rounds = [Round]()
 
-        let rawRounds = input.components(separatedBy: .newlines)
+        let rawRounds = input
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .components(separatedBy: .newlines)
 
         for rawRound in rawRounds {
             let rawMoves = rawRound

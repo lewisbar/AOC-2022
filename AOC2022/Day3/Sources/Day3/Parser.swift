@@ -10,6 +10,7 @@ import Foundation
 struct Parser {
     func parse(_ input: String) -> [Rucksack] {
         input
+            .trimmingCharacters(in: .whitespacesAndNewlines)
             .components(separatedBy: .newlines)
             .map { rawRucksack in
                 let rawRucksackArray = Array(rawRucksack)
