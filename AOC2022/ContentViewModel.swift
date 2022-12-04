@@ -7,14 +7,18 @@
 
 import Foundation
 
+protocol FileReaderType {
+    func read(_ filename: String, fileExtension: String) -> String
+}
+
 struct ContentViewModel {
-    private let reader: FileReader
+    private let reader: FileReaderType
 
     var solutions: [Solution] {
         allDays(types: DayConstants.dayTypes)
     }
 
-    init(reader: FileReader = FileReader.shared) {
+    init(reader: FileReaderType = FileReader.shared) {
         self.reader = reader
     }
 
@@ -24,7 +28,7 @@ struct ContentViewModel {
         for i in 1...types.count {
             let id = "Day \(i)"
             let filename = "InputDay\(i)"
-            let input = reader.read(filename)
+            let input = reader.read(filename, fileExtension: "txt")
             let day = types[i-1].init(input)
             solutions.append(
                 Solution(

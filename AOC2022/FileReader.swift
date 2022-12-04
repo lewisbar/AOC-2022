@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct FileReader {
+struct FileReader: FileReaderType {
     static let shared = FileReader()
     func read(_ filename: String, fileExtension: String = "txt") -> String {
         let fullName = "\(filename).\(fileExtension)"
