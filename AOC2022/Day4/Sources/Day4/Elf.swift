@@ -28,7 +28,7 @@ struct Elf {
          lastSection >= otherElf.lastSection)
     }
 
-    func overlaps(with otherElf: Elf) ->Bool {
+    func overlaps(with otherElf: Elf) -> Bool {
         (firstSection >= otherElf.firstSection &&
          firstSection <= otherElf.lastSection) ||
         (lastSection <= otherElf.lastSection &&
@@ -37,16 +37,5 @@ struct Elf {
          otherElf.firstSection <= lastSection) ||
         (otherElf.lastSection <= lastSection &&
          otherElf.lastSection >= firstSection)
-    }
-}
-
-struct ElfPair {
-    let elf1: Elf
-    let elf2: Elf
-    var isRedundant: Bool {
-        elf1.isSubsetOrSuperSet(of: elf2)
-    }
-    var isOverlapping: Bool {
-        elf1.overlaps(with: elf2)
     }
 }
