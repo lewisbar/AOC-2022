@@ -19,13 +19,13 @@ struct Elf {
     }
 
     func isSubset(of otherElf: Elf) -> Bool {
-        (firstSection >= otherElf.firstSection &&
-         lastSection <= otherElf.lastSection)
+        firstSection >= otherElf.firstSection &&
+         lastSection <= otherElf.lastSection
     }
 
     func isSuperset(of otherElf: Elf) -> Bool {
-        (firstSection <= otherElf.firstSection &&
-         lastSection >= otherElf.lastSection)
+        firstSection <= otherElf.firstSection &&
+         lastSection >= otherElf.lastSection
     }
 
     func overlaps(with otherElf: Elf) -> Bool {
