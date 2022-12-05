@@ -20,7 +20,7 @@
 		3056A04D29393B4D00BAC4F0 /* SolutionView in Frameworks */ = {isa = PBXBuildFile; productRef = 3056A04C29393B4D00BAC4F0 /* SolutionView */; };
 		3056A04F29393B5300BAC4F0 /* Day2 in Frameworks */ = {isa = PBXBuildFile; productRef = 3056A04E29393B5300BAC4F0 /* Day2 */; };
 		3056A051293948FB00BAC4F0 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3056A050293948FB00BAC4F0 /* FileReader.swift */; };
-		30DACA00293D3F9F00DDF9D0 /* InputDay5 in Resources */ = {isa = PBXBuildFile; fileRef = 30DAC9FF293D3F9F00DDF9D0 /* InputDay5 */; };
+		30DACA00293D3F9F00DDF9D0 /* InputDay5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30DAC9FF293D3F9F00DDF9D0 /* InputDay5.txt */; };
 		30DACA02293D3FE100DDF9D0 /* Day5 in Frameworks */ = {isa = PBXBuildFile; productRef = 30DACA01293D3FE100DDF9D0 /* Day5 */; };
 		30DACA0A293D466900DDF9D0 /* AOC2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DACA09293D466900DDF9D0 /* AOC2022Tests.swift */; };
 		30ED93BC2938A9D4008A47D6 /* AOC2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93BB2938A9D4008A47D6 /* AOC2022App.swift */; };
@@ -54,7 +54,7 @@
 		3056A04B29393A8800BAC4F0 /* SolutionView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SolutionView; path = AOC2022/SolutionView; sourceTree = "<group>"; };
 		3056A050293948FB00BAC4F0 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		30DAC9FE293D384F00DDF9D0 /* Day5 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day5; path = AOC2022/Day5; sourceTree = "<group>"; };
-		30DAC9FF293D3F9F00DDF9D0 /* InputDay5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay5; sourceTree = "<group>"; };
+		30DAC9FF293D3F9F00DDF9D0 /* InputDay5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay5.txt; sourceTree = "<group>"; };
 		30DACA07293D466900DDF9D0 /* AOC2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOC2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DACA09293D466900DDF9D0 /* AOC2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2022Tests.swift; sourceTree = "<group>"; };
 		30ED93B82938A9D4008A47D6 /* AOC2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOC2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 				3056A048293937BE00BAC4F0 /* InputDay2.txt */,
 				301B8BBC293A287A000DB83B /* InputDay3.txt */,
 				30004F69293BD63B00EDA349 /* InputDay4.txt */,
-				30DAC9FF293D3F9F00DDF9D0 /* InputDay5 */,
+				30DAC9FF293D3F9F00DDF9D0 /* InputDay5.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 				30004F6A293BD63B00EDA349 /* InputDay4.txt in Resources */,
 				3056A049293937BE00BAC4F0 /* InputDay2.txt in Resources */,
 				301B8BBD293A287A000DB83B /* InputDay3.txt in Resources */,
-				30DACA00293D3F9F00DDF9D0 /* InputDay5 in Resources */,
+				30DACA00293D3F9F00DDF9D0 /* InputDay5.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

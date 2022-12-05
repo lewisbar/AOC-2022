@@ -38,7 +38,17 @@ struct ContentViewModel {
                 )
             )
         }
+        
+        print(solutionsDescription(for: solutions))
 
         return solutions
+    }
+    
+    private func solutionsDescription(for solutions: [Solution]) -> String {
+        var output = ""
+        for solution in solutions {
+            output += "\(solution.id): \(solution.part1), \(solution.part2)\n"
+        }
+        return output
     }
 }
