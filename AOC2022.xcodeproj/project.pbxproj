@@ -29,6 +29,8 @@
 		30ED93BE2938A9D4008A47D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED93BD2938A9D4008A47D6 /* ContentView.swift */; };
 		30ED93C02938A9D5008A47D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ED93BF2938A9D5008A47D6 /* Assets.xcassets */; };
 		30ED93C32938A9D5008A47D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ED93C22938A9D5008A47D6 /* Preview Assets.xcassets */; };
+		30EEA801293FEA6800AD5A97 /* InputDay7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30EEA800293FEA6800AD5A97 /* InputDay7.txt */; };
+		30EEA803293FEEC800AD5A97 /* Day7 in Frameworks */ = {isa = PBXBuildFile; productRef = 30EEA802293FEEC800AD5A97 /* Day7 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		30ED93BD2938A9D4008A47D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30ED93BF2938A9D5008A47D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30ED93C22938A9D5008A47D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30EEA7FF293FEA4800AD5A97 /* Day7 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day7; path = AOC2022/Day7; sourceTree = "<group>"; };
+		30EEA800293FEA6800AD5A97 /* InputDay7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay7.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3056A04F29393B5300BAC4F0 /* Day2 in Frameworks */,
+				30EEA803293FEEC800AD5A97 /* Day7 in Frameworks */,
 				30318404293F23B30077F0F4 /* Day6 in Frameworks */,
 				3034780F293A441E002D874F /* Day3 in Frameworks */,
 				30004F6C293BD6D100EDA349 /* Day4 in Frameworks */,
@@ -102,6 +107,7 @@
 				30004F69293BD63B00EDA349 /* InputDay4.txt */,
 				30DAC9FF293D3F9F00DDF9D0 /* InputDay5.txt */,
 				3047E41D293F27AA0069A670 /* InputDay6.txt */,
+				30EEA800293FEA6800AD5A97 /* InputDay7.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -117,6 +123,7 @@
 		30ED93AF2938A9D4008A47D6 = {
 			isa = PBXGroup;
 			children = (
+				30EEA7FF293FEA4800AD5A97 /* Day7 */,
 				30318402293F21B10077F0F4 /* Day6 */,
 				30DAC9FE293D384F00DDF9D0 /* Day5 */,
 				30004F68293BD45F00EDA349 /* Day4 */,
@@ -213,6 +220,7 @@
 				30004F6B293BD6D100EDA349 /* Day4 */,
 				30DACA01293D3FE100DDF9D0 /* Day5 */,
 				30318403293F23B30077F0F4 /* Day6 */,
+				30EEA802293FEEC800AD5A97 /* Day7 */,
 			);
 			productName = AOC2022;
 			productReference = 30ED93B82938A9D4008A47D6 /* AOC2022.app */;
@@ -274,6 +282,7 @@
 				30004F6A293BD63B00EDA349 /* InputDay4.txt in Resources */,
 				3056A049293937BE00BAC4F0 /* InputDay2.txt in Resources */,
 				301B8BBD293A287A000DB83B /* InputDay3.txt in Resources */,
+				30EEA801293FEA6800AD5A97 /* InputDay7.txt in Resources */,
 				30DACA00293D3F9F00DDF9D0 /* InputDay5.txt in Resources */,
 				3047E41E293F27AA0069A670 /* InputDay6.txt in Resources */,
 			);
@@ -582,6 +591,10 @@
 		30DACA01293D3FE100DDF9D0 /* Day5 */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Day5;
+		};
+		30EEA802293FEEC800AD5A97 /* Day7 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Day7;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
