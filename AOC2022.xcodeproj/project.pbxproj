@@ -13,9 +13,11 @@
 		30004F70293BDECC00EDA349 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30004F6F293BDECC00EDA349 /* Solution.swift */; };
 		301B8BBD293A287A000DB83B /* InputDay3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 301B8BBC293A287A000DB83B /* InputDay3.txt */; };
 		301F1B8C2938EC400044595B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F1B8B2938EC400044595B /* ContentViewModel.swift */; };
+		30318404293F23B30077F0F4 /* Day6 in Frameworks */ = {isa = PBXBuildFile; productRef = 30318403293F23B30077F0F4 /* Day6 */; };
 		3034780F293A441E002D874F /* Day3 in Frameworks */ = {isa = PBXBuildFile; productRef = 3034780E293A441E002D874F /* Day3 */; };
 		303800A72938DF06005373E8 /* InputDay1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 303800A62938DF06005373E8 /* InputDay1.txt */; };
 		303800AE2938E252005373E8 /* Day1 in Frameworks */ = {isa = PBXBuildFile; productRef = 303800AD2938E252005373E8 /* Day1 */; };
+		3047E41E293F27AA0069A670 /* InputDay6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3047E41D293F27AA0069A670 /* InputDay6.txt */; };
 		3056A049293937BE00BAC4F0 /* InputDay2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3056A048293937BE00BAC4F0 /* InputDay2.txt */; };
 		3056A04D29393B4D00BAC4F0 /* SolutionView in Frameworks */ = {isa = PBXBuildFile; productRef = 3056A04C29393B4D00BAC4F0 /* SolutionView */; };
 		3056A04F29393B5300BAC4F0 /* Day2 in Frameworks */ = {isa = PBXBuildFile; productRef = 3056A04E29393B5300BAC4F0 /* Day2 */; };
@@ -47,8 +49,10 @@
 		301B8BBC293A287A000DB83B /* InputDay3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay3.txt; sourceTree = "<group>"; };
 		301B8BBE293A28AA000DB83B /* Day3 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day3; path = AOC2022/Day3; sourceTree = "<group>"; };
 		301F1B8B2938EC400044595B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		30318402293F21B10077F0F4 /* Day6 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day6; path = AOC2022/Day6; sourceTree = "<group>"; };
 		303800A62938DF06005373E8 /* InputDay1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InputDay1.txt; sourceTree = "<group>"; };
 		303800AC2938E1FD005373E8 /* Day1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day1; path = AOC2022/Day1; sourceTree = "<group>"; };
+		3047E41D293F27AA0069A670 /* InputDay6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay6.txt; sourceTree = "<group>"; };
 		3056A048293937BE00BAC4F0 /* InputDay2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay2.txt; sourceTree = "<group>"; };
 		3056A04A2939383600BAC4F0 /* Day2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day2; path = AOC2022/Day2; sourceTree = "<group>"; };
 		3056A04B29393A8800BAC4F0 /* SolutionView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SolutionView; path = AOC2022/SolutionView; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3056A04F29393B5300BAC4F0 /* Day2 in Frameworks */,
+				30318404293F23B30077F0F4 /* Day6 in Frameworks */,
 				3034780F293A441E002D874F /* Day3 in Frameworks */,
 				30004F6C293BD6D100EDA349 /* Day4 in Frameworks */,
 				30DACA02293D3FE100DDF9D0 /* Day5 in Frameworks */,
@@ -96,6 +101,7 @@
 				301B8BBC293A287A000DB83B /* InputDay3.txt */,
 				30004F69293BD63B00EDA349 /* InputDay4.txt */,
 				30DAC9FF293D3F9F00DDF9D0 /* InputDay5.txt */,
+				3047E41D293F27AA0069A670 /* InputDay6.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -111,6 +117,7 @@
 		30ED93AF2938A9D4008A47D6 = {
 			isa = PBXGroup;
 			children = (
+				30318402293F21B10077F0F4 /* Day6 */,
 				30DAC9FE293D384F00DDF9D0 /* Day5 */,
 				30004F68293BD45F00EDA349 /* Day4 */,
 				301B8BBE293A28AA000DB83B /* Day3 */,
@@ -205,6 +212,7 @@
 				3034780E293A441E002D874F /* Day3 */,
 				30004F6B293BD6D100EDA349 /* Day4 */,
 				30DACA01293D3FE100DDF9D0 /* Day5 */,
+				30318403293F23B30077F0F4 /* Day6 */,
 			);
 			productName = AOC2022;
 			productReference = 30ED93B82938A9D4008A47D6 /* AOC2022.app */;
@@ -267,6 +275,7 @@
 				3056A049293937BE00BAC4F0 /* InputDay2.txt in Resources */,
 				301B8BBD293A287A000DB83B /* InputDay3.txt in Resources */,
 				30DACA00293D3F9F00DDF9D0 /* InputDay5.txt in Resources */,
+				3047E41E293F27AA0069A670 /* InputDay6.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +558,10 @@
 		30004F6B293BD6D100EDA349 /* Day4 */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Day4;
+		};
+		30318403293F23B30077F0F4 /* Day6 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Day6;
 		};
 		3034780E293A441E002D874F /* Day3 */ = {
 			isa = XCSwiftPackageProductDependency;
