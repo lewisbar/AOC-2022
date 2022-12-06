@@ -108,6 +108,7 @@ struct MockFileReader: FileReaderType {
             2-6,4-8
             """
 
+        // TODO: I think this makes the tests crash
         case "InputDay5":
             return "    [D]    \n" +
             "[N] [C]    \n" +
