@@ -52,12 +52,12 @@ public class Day5 {
     func applyingMovesWithNewCrane(to stacks: [Stack]) -> [Stack] {
         var tmpStacks = stacks
         for move in moves {
-            tmpStacks = applyingMove(move, to: tmpStacks)
+            tmpStacks = applyingMoveWithNewCrane(move, to: tmpStacks)
         }
         return tmpStacks
     }
     
-    func applyingMove(_ move: Move, to stacks: [Stack]) -> [Stack] {
+    func applyingMoveWithNewCrane(_ move: Move, to stacks: [Stack]) -> [Stack] {
         var tmpStacks = stacks
         let liftedCrates = Array(tmpStacks[move.fromStack].crates.suffix(move.amount))
         tmpStacks[move.fromStack].crates = tmpStacks[move.fromStack].crates.dropLast(move.amount)
