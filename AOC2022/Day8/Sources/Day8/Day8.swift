@@ -15,6 +15,6 @@ public class Day8 {
     }
 
     public var solution2: String {
-        "?"
+        String(observer.highestScenicScore)
     }
 }
