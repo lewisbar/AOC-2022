@@ -11,6 +11,6 @@ public class Day7 {
     }
 
     public var solution2: String {
-        ""
+        "?"
     }
 }
