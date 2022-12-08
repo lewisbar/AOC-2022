@@ -100,7 +100,7 @@ class Observer {
 
 
     // MARK: - Part 2
-    enum Direction { case north, east, south, west }
+    private enum Direction { case north, east, south, west }
 
     var highestScenicScore: Int {
         var highScore = 0
@@ -116,14 +116,14 @@ class Observer {
         return highScore
     }
 
-    func scenicScore(forTreeAtRow rowIndex: Int, column columnIndex: Int) -> Int {
+    private func scenicScore(forTreeAtRow rowIndex: Int, column columnIndex: Int) -> Int {
         viewDistance(in: .north, forTreeAtRow: rowIndex, column: columnIndex) *
         viewDistance(in: .east, forTreeAtRow: rowIndex, column: columnIndex) *
         viewDistance(in: .south, forTreeAtRow: rowIndex, column: columnIndex) *
         viewDistance(in: .west, forTreeAtRow: rowIndex, column: columnIndex)
     }
 
-    func viewDistance(in direction: Direction, forTreeAtRow rowIndex: Int, column columnIndex: Int) -> Int {
+    private func viewDistance(in direction: Direction, forTreeAtRow rowIndex: Int, column columnIndex: Int) -> Int {
         let row = forest.rows[rowIndex]
         let tree = row.trees[columnIndex]
 
@@ -146,7 +146,7 @@ class Observer {
         return distance
     }
 
-    func neighbors(in direction: Direction, forTreeAtRow rowIndex: Int, columnIndex: Int) -> ArraySlice<Tree> {
+    private func neighbors(in direction: Direction, forTreeAtRow rowIndex: Int, columnIndex: Int) -> ArraySlice<Tree> {
         switch direction {
         case .north:
             guard rowIndex > 0 else { return ArraySlice<Tree>() }
