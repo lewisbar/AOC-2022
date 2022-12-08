@@ -1,12 +1,13 @@
 public class Day7 {
-    private var text = "Hello, World!"
+    private let store = Store()
+    private let parser = Parser()
 
     required public init(_ input: String) {
-        self.text = input
+        parser.parse(input, to: store)
     }
 
     public var solution1: String {
-        ""
+        String(store.totalSize)
     }
 
     public var solution2: String {
