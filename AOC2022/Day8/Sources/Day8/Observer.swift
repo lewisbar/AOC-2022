@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Observer.swift
 //  
 //
 //  Created by LennartWisbar on 08.12.22.
@@ -96,17 +96,4 @@ class Observer {
 
         return visibleTrees
     }
-}
-
-struct Forest {
-    let rows: [Row]
-}
-
-struct Row {
-    let trees: [Tree]
-}
-
-struct Tree: Identifiable, Hashable {
-    let id = UUID()
-    let height: Int
 }

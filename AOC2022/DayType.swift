@@ -13,6 +13,7 @@ import Day4
 import Day5
 import Day6
 import Day7
+import Day8
 
 protocol DayType {
     init(_ input: String)
@@ -22,7 +23,7 @@ protocol DayType {
 
 enum DayConstants {
     static let dayTypes: [DayType.Type] = [
-        Day1.self, Day2.self, Day3.self, Day4.self, Day5.self, Day6.self, Day7.self
+        Day1.self, Day2.self, Day3.self, Day4.self, Day5.self, Day6.self, Day7.self, Day8.self
     ]
 }
 
@@ -33,3 +34,4 @@ extension Day4: DayType {}
 extension Day5: DayType {}
 extension Day6: DayType {}
 extension Day7: DayType {}
+extension Day8: DayType {}

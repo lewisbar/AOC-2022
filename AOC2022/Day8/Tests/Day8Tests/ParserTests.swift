@@ -6,30 +6,59 @@
 //
 
 import XCTest
+@testable import Day8
 
-final class ParserTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
-}
+//final class ParserTests: XCTestCase {
+//
+//    // TODO: Does not work right now because of different IDs
+//    func test_parse_sampleInput_returnsForest() {
+//        let input = """
+//            30373
+//            25512
+//            65332
+//            33549
+//            35390
+//            """
+//        let parser = Parser()
+//        let expectedForest = Forest(rows: [
+//            Row(trees: [
+//                Tree(height: 3),
+//                Tree(height: 0),
+//                Tree(height: 3),
+//                Tree(height: 7),
+//                Tree(height: 3)
+//            ]),
+//            Row(trees: [
+//                Tree(height: 2),
+//                Tree(height: 5),
+//                Tree(height: 5),
+//                Tree(height: 1),
+//                Tree(height: 2)
+//            ]),
+//            Row(trees: [
+//                Tree(height: 6),
+//                Tree(height: 5),
+//                Tree(height: 3),
+//                Tree(height: 3),
+//                Tree(height: 2)
+//            ]),
+//            Row(trees: [
+//                Tree(height: 3),
+//                Tree(height: 3),
+//                Tree(height: 5),
+//                Tree(height: 4),
+//                Tree(height: 9)
+//            ]),
+//            Row(trees: [
+//                Tree(height: 3),
+//                Tree(height: 5),
+//                Tree(height: 3),
+//                Tree(height: 9),
+//                Tree(height: 0)
+//            ])
+//        ])
+//        let resultForest = parser.parse(input)
+//
+//        XCTAssertEqual(resultForest, expectedForest)
+//    }
+//}
