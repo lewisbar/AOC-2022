@@ -23,6 +23,8 @@
 		3056A04D29393B4D00BAC4F0 /* SolutionView in Frameworks */ = {isa = PBXBuildFile; productRef = 3056A04C29393B4D00BAC4F0 /* SolutionView */; };
 		3056A04F29393B5300BAC4F0 /* Day2 in Frameworks */ = {isa = PBXBuildFile; productRef = 3056A04E29393B5300BAC4F0 /* Day2 */; };
 		3056A051293948FB00BAC4F0 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3056A050293948FB00BAC4F0 /* FileReader.swift */; };
+		30C477C7294347960009E14A /* Day9 in Frameworks */ = {isa = PBXBuildFile; productRef = 30C477C6294347960009E14A /* Day9 */; };
+		30C477C9294347AC0009E14A /* InputDay9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30C477C8294347AC0009E14A /* InputDay9.txt */; };
 		30D8F27429421DBA00F0C2B5 /* Day8 in Frameworks */ = {isa = PBXBuildFile; productRef = 30D8F27329421DBA00F0C2B5 /* Day8 */; };
 		30DACA00293D3F9F00DDF9D0 /* InputDay5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30DAC9FF293D3F9F00DDF9D0 /* InputDay5.txt */; };
 		30DACA02293D3FE100DDF9D0 /* Day5 in Frameworks */ = {isa = PBXBuildFile; productRef = 30DACA01293D3FE100DDF9D0 /* Day5 */; };
@@ -51,6 +53,8 @@
 		3056A04A2939383600BAC4F0 /* Day2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day2; path = AOC2022/Day2; sourceTree = "<group>"; };
 		3056A04B29393A8800BAC4F0 /* SolutionView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SolutionView; path = AOC2022/SolutionView; sourceTree = "<group>"; };
 		3056A050293948FB00BAC4F0 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		3081781729432ECB00CAD464 /* Day9 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day9; path = AOC2022/Day9; sourceTree = "<group>"; };
+		30C477C8294347AC0009E14A /* InputDay9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay9.txt; sourceTree = "<group>"; };
 		30D8F272294216FE00F0C2B5 /* Day8 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day8; path = AOC2022/Day8; sourceTree = "<group>"; };
 		30DAC9FE293D384F00DDF9D0 /* Day5 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Day5; path = AOC2022/Day5; sourceTree = "<group>"; };
 		30DAC9FF293D3F9F00DDF9D0 /* InputDay5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputDay5.txt; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 				30004F6C293BD6D100EDA349 /* Day4 in Frameworks */,
 				30DACA02293D3FE100DDF9D0 /* Day5 in Frameworks */,
 				30D8F27429421DBA00F0C2B5 /* Day8 in Frameworks */,
+				30C477C7294347960009E14A /* Day9 in Frameworks */,
 				3056A04D29393B4D00BAC4F0 /* SolutionView in Frameworks */,
 				303800AE2938E252005373E8 /* Day1 in Frameworks */,
 			);
@@ -94,6 +99,7 @@
 				3047E41D293F27AA0069A670 /* InputDay6.txt */,
 				30EEA800293FEA6800AD5A97 /* InputDay7.txt */,
 				3012363929422A25006F929E /* InputDay8.txt */,
+				30C477C8294347AC0009E14A /* InputDay9.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -101,6 +107,7 @@
 		30ED93AF2938A9D4008A47D6 = {
 			isa = PBXGroup;
 			children = (
+				3081781729432ECB00CAD464 /* Day9 */,
 				30D8F272294216FE00F0C2B5 /* Day8 */,
 				30EEA7FF293FEA4800AD5A97 /* Day7 */,
 				30318402293F21B10077F0F4 /* Day6 */,
@@ -181,6 +188,7 @@
 				30318403293F23B30077F0F4 /* Day6 */,
 				30EEA802293FEEC800AD5A97 /* Day7 */,
 				30D8F27329421DBA00F0C2B5 /* Day8 */,
+				30C477C6294347960009E14A /* Day9 */,
 			);
 			productName = AOC2022;
 			productReference = 30ED93B82938A9D4008A47D6 /* AOC2022.app */;
@@ -224,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C477C9294347AC0009E14A /* InputDay9.txt in Resources */,
 				30ED93C32938A9D5008A47D6 /* Preview Assets.xcassets in Resources */,
 				30ED93C02938A9D5008A47D6 /* Assets.xcassets in Resources */,
 				303800A72938DF06005373E8 /* InputDay1.txt in Resources */,
@@ -475,6 +484,10 @@
 		3056A04E29393B5300BAC4F0 /* Day2 */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Day2;
+		};
+		30C477C6294347960009E14A /* Day9 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Day9;
 		};
 		30D8F27329421DBA00F0C2B5 /* Day8 */ = {
 			isa = XCSwiftPackageProductDependency;
