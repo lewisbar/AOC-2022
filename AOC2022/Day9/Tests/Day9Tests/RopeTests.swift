@@ -22,7 +22,7 @@ final class RopeTests: XCTestCase {
         ]
         let expectedResult = 13
         
-        let rope = Rope()
+        let rope = Rope(knotCount: 2)
         let result = rope.numberOfDifferentPositionsTouchedByTail(after: sampleMoves)
 
         XCTAssertEqual(result, expectedResult)
