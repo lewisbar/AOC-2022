@@ -7,13 +7,15 @@ public class Day9 {
     }
 
     public var solution1: String {
-        let rope = Rope(knotCount: 2)
-        return rope.numberOfDifferentPositionsTouchedByTail(after: moves).asString
+        Rope(knotCount: 2)
+            .numberOfDifferentPositionsTouchedByTail(after: moves)
+            .asString
     }
 
     public var solution2: String {
-        let rope = Rope(knotCount: 10)
-        return rope.numberOfDifferentPositionsTouchedByTail(after: moves).asString
+        Rope(knotCount: 10)
+            .numberOfDifferentPositionsTouchedByTail(after: moves)
+            .asString
     }
 }
 
