@@ -1,6 +1,5 @@
 public class Day9 {
     let parser = Parser()
-    let mover = Mover()
     let moves: [Move]
 
     required public init(_ input: String) {
@@ -8,11 +7,13 @@ public class Day9 {
     }
 
     public var solution1: String {
-        mover.numberOfDifferentPositionsTouchedByTail(after: moves).asString
+        let rope = Rope(knotCount: 2)
+        return rope.numberOfDifferentPositionsTouchedByTail(after: moves).asString
     }
 
     public var solution2: String {
-        "?"
+        let rope = Rope(knotCount: 10)
+        return rope.numberOfDifferentPositionsTouchedByTail(after: moves).asString
     }
 }
 
