@@ -150,6 +150,7 @@ final class Day10Tests: XCTestCase {
             noop
             noop
             """
+
     func test_day10_withSampleInput_producesSolution1() {
         let day10 = Day10(sampleInput)
         XCTAssertEqual(day10.solution1, "13140")
