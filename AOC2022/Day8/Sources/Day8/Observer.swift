@@ -109,7 +109,6 @@ class Observer {
             for columnIndex in forest.rows[rowIndex].trees.indices.dropFirst().dropLast() {
                 let score = scenicScore(forTreeAtRow: rowIndex, column: columnIndex)
                 highScore = max(score, highScore)
-                print(score, rowIndex, columnIndex)
             }
         }
 
