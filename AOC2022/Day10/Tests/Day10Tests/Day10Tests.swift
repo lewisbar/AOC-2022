@@ -2,8 +2,7 @@ import XCTest
 @testable import Day10
 
 final class Day10Tests: XCTestCase {
-    func test_day10_withSampleInput_producesSolution1() {
-        let input = """
+    let sampleInput = """
             addx 15
             addx -11
             addx 6
@@ -151,7 +150,20 @@ final class Day10Tests: XCTestCase {
             noop
             noop
             """
-        let day10 = Day10(input)
+    func test_day10_withSampleInput_producesSolution1() {
+        let day10 = Day10(sampleInput)
         XCTAssertEqual(day10.solution1, "13140")
+    }
+
+    func test_day10_withSampleInput_producesSolution2() {
+        let expectedImage = "\n" +
+        "##  ##  ##  ##  ##  ##  ##  ##  ##  ##  \n" +
+        "###   ###   ###   ###   ###   ###   ### \n" +
+        "####    ####    ####    ####    ####    \n" +
+        "#####     #####     #####     #####     \n" +
+        "######      ######      ######      ####\n" +
+        "#######       #######       #######     \n"
+        let day10 = Day10(sampleInput)
+        XCTAssertEqual(day10.solution2, expectedImage)
     }
 }
