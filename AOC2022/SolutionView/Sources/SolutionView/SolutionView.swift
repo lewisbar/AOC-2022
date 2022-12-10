@@ -21,11 +21,13 @@ public struct SolutionView: View {
                 Text("Part 1:")
                 Text(solution1)
             }
+            .padding(.bottom, 24)
             HStack {
                 Text("Part 2:")
                 Text(solution2)
             }
         }
+        .font(.monospaced(.caption)())
         .padding(.top, 48)
         .padding(.bottom, 110)
     }
